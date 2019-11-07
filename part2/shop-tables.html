@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/a7ec7986bf.js"></script>
+    <title>BikeShop - Shop</title>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- header -->
+    <div class="row">
+
+        <nav class=" header-shop col-12 navbar navbar-light bg-dark">
+                <a class="navbar" href="index.html">
+                    <i class="icon-basket fa fa-shopping-cart" aria-hidden="true"></i>
+                my Basket
+                </a>
+            </nav>
+
+    </div>  
+
+    <!-- breadcrumb bar -->
+    <div class="row" style="margin-top: 25px">
+
+        <nav aria-label="breadcrumb" class="col-12">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Shop</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Basket</li>
+            </ol>
+          </nav>
+
+    </div>
+
+    <h1>Basket</h1>
+
+      <!-- title division -->
+      <table class="table">
+      <thead>
+        <tr scope="row">
+          <th colspan="1">Picture</th>
+          <th colspan="3">Model</th>
+          <th colspan="2">Quantity</th>
+          <th colspan="1">Price</th>
+          <th colspan="1">Total</th>
+          <th colspan="1">Suppr</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <!-- Bikes division -->
+        <tr class="tables-row table-light">
+          <td colspan="1"><img class="basket-img"  src="/bike-1.jpg"></td>
+          <td colspan="3"><p>BIKO45</p></td>
+          <td colspan="1"> <input type="text" value="1" class="form-control form-control-sm"></td>
+          <td colspan="1"> <button type="button" class="btn btn-outline-info btn-sm" name="button"><i class="fa                           fa-refresh" aria-hidden="true"></i></button></td>
+          <td colspan="1">679€</td>
+          <td colspan="1">679€</td>
+          <td colspan="1"><button type="button" class="btn btn-outline-info btn-sm" name="button"><i class="fa                          fa-trash-o" aria-hidden="true"></i></td>
+        </tr>
+
+        <tr class="tables-row table-light">
+            <td colspan="1"><img class="basket-img"  src="/bike-1.jpg"></td>
+            <td colspan="3"><p>BIKO45</p></td>
+            <td colspan="1"> <input type="text" value="1" class="form-control form-control-sm"></td>
+            <td colspan="1"> <button type="button" class="btn btn-outline-info btn-sm" name="button"><i class="fa                           fa-refresh" aria-hidden="true"></i></button></td>
+            <td colspan="1">679€</td>
+            <td colspan="1">679€</td>
+            <td colspan="1"><button type="button" class="btn btn-outline-info btn-sm" name="button"><i class="fa                          fa-trash-o" aria-hidden="true"></i></td>
+          </tr>
+       
+
+      </tbody>
+      </table>
+
+     <!-- Total -->
+
+    <!-- <div class="total-box row">
+            <div class="col-5 col-sm-10" style="text-align: end;">Total basket:</div>
+            <div class="col-5 col-sm-2">1478€</div>
+    </div> -->
+  <table class="table text-right">
+    <tr scope="row">
+      <td colspan="1"><p>Total Basket</p></td>
+      <td colspan="1"><p>1478 €</p></td>
+    </tr>
+  </table>   
+    <!-- checkout button -->
+    <div class="row">
+
+        <div class="col-12 text-right">
+            <button type="button" class="btn btn-outline-info btn-sm btn-checkout"    name="btn-checkout">Checkout</button>
+        </div>
+
+    </div>
+
+</div>
+
+ <!-- scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.jintegrity="sha384-q8+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizcrossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
